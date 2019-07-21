@@ -1,15 +1,11 @@
 import React from 'react';
 
+import Header from './components/Header';
+
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <h1>Intro</h1>
-          </div>
-        </div>
-      </div>
+      <Header />
     </div>
   );
 }
