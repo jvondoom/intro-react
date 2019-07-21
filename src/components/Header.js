@@ -7,7 +7,8 @@ const Header = props => {
         <div className="row">
           <div className="col-12">
             <div className="jumbotron">
-              <h1 className="display-4 text-center">HM Juan von Doom M I</h1>
+              <h1 className="display-4 text-center">Juan von Doom M</h1>
+              <p className="lead text-center">An Introduction</p>
             </div>
           </div>
         </div>
