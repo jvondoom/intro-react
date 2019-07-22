@@ -7,7 +7,7 @@ import Resume from './components/Resume';
 function App() {
   const style = {
     backgroundColor: '#6E0902',
-    color: '#cecece',
+    color: '#9c9c9c',
   };
 
   return (

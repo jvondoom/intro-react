@@ -2,9 +2,10 @@ import React from 'react';
 
 const Header = props => {
   const jumboStyle = {
-    color: '#6E0902',
-    backgroundColor: '#9d9d9d',
+    color: '#9c9c9c',
+    backgroundColor: '#460703',
   };
+
   return (
     <div className="header">
       <div className="container">
