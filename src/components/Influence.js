@@ -5,6 +5,11 @@ const Influence = props => {
     maxWidth: 265,
   };
 
+  const linkStyle = {
+    color: '#cecece',
+    textDecoration: 'underline',
+  };
+
   return (
     <div className="influence">
       <div className="container">
@@ -70,12 +75,17 @@ const Influence = props => {
               has become something trendy; it is because I have spend months
               dedicating to enjoy the material and trying to get inspired by the
               fiction I consume.{' '}
-              <a href="https://www.comicbookgirl19.com/">Comic Book Girl 19</a>,
-              an internet influencer, said in her{' '}
-              <a href="https://youtu.be/LGtNFHtM81A">TED Talk</a> that a way to
-              get in touch with the true self is by how you interact with the
-              stories; this means that if you love or hate a fictional character
-              in becuase you like or dislike parts of yourself.
+              <a style={linkStyle} href="https://www.comicbookgirl19.com/">
+                Comic Book Girl 19
+              </a>
+              , an internet influencer, said in her{' '}
+              <a style={linkStyle} href="https://youtu.be/LGtNFHtM81A">
+                TED Talk
+              </a>{' '}
+              that a way to get in touch with the true self is by how you
+              interact with the stories; this means that if you love or hate a
+              fictional character in becuase you like or dislike parts of
+              yourself.
             </p>
           </div>
         </div>
